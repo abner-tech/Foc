@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>FoC2</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <body>
-
-<h2>OR GATE</h2>
-
+<header>
+<h2><b>OR GATE</b></h2>
+</header>
+<center>
 
 <button onclick="document.getElementById('myImage').src='OR00.png'">INPUT=0 0</button>
 
 <button onclick="document.getElementById('myImage').src='OR01.png'">INPUT=0 1</button>
 
+<img id="myImage" src="OR11.png" style="width:500px">
+
 <button onclick="document.getElementById('myImage').src='OR10.png'">INPUT=1 0</button>
 
 <button onclick="document.getElementById('myImage').src='OR11.png'">INPUT=1 1</button>
+</center>
 
-<img id="myImage" src="OR11.png" style="width:500px">
 <section>
   <nav>
     <ul>
@@ -39,5 +51,9 @@
    </ul>
   </nav>
   </section>
-</body>
+
+  <footer>
+  <p>@ Powered by UB</p>
+</footer>
+  </body>
 </html>
