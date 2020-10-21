@@ -1,5 +1,5 @@
 <script language="JavaScript">
-<script src="script.js"></script>
+<script src="bmi.html"></script>
 <!--
 function calculateBmi() {
 var weight = document.bmiForm.weight.value
